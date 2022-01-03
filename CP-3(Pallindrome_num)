@@ -1,0 +1,25 @@
+Code 2: 
+
+Link to Leetcode : https://leetcode.com/problems/palindrome-number/
+
+Level : Easy
+
+Prerequisite: maths
+
+"PLEASE TRY IT OUT YOURSELF BEFORE LOOKING AT SOLUTION!!"
+
+Solution:
+ bool isPalindrome(int x) 
+ {
+        if(x<0){return 0;}
+        unsigned x1=x, y=0;
+        while(x1!=0)
+        {
+            y=(y*10)+(x1%10);
+            x1=x1/10;
+        }
+        return x==y;
+ }
+
+I think we can use something like dequeue is such cases
+https://leetcode.com/problems/palindrome-number/discuss/261934/beats-100-(cpp)

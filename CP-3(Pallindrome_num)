@@ -21,5 +21,7 @@ Solution:
         return x==y;
  }
 
+leetcode solution: https://leetcode.com/problems/palindrome-number/solution/
+
 I think we can use something like dequeue is such cases
 https://leetcode.com/problems/palindrome-number/discuss/261934/beats-100-(cpp)

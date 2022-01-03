@@ -1,0 +1,14 @@
+Code 1:
+
+Link to Leetcode : https://leetcode.com/problems/two-sum/
+
+Level : Easy(if done in O(n^2), Medium(if done in O(n))
+
+Prerequisite: STL/C++
+
+"PLEASE TRY IT OUT YOURSELF BEFORE LOOKING AT SOLUTION!!"
+
+Solution:
+https://leetcode.com/problems/two-sum/discuss/1664763/C%2B%2B-oror-multimap-oror-8ms
+
+Better option is to use unordered_map instead of multimap (few in leet code discussions have used it)

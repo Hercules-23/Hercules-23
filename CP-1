@@ -12,3 +12,6 @@ Solution:
 https://leetcode.com/problems/two-sum/discuss/1664763/C%2B%2B-oror-multimap-oror-8ms
 
 Better option is to use unordered_map instead of multimap (few in leet code discussions have used it)
+
+some useful links:
+https://stackoverflow.com/questions/5842647/compare-iterators-c
